@@ -65,5 +65,12 @@ CSS files can get very large as your project grows. Just like JavaScript files, 
 
 Let's make an example based on what we just learned with variables.
 
+First, well name our file `colors` but preface it with a `_`: `_colors.scss`.
+
+Then we will import it into another SCSS file by putting the following line at the top:
+`@import './_colors' (Depending on how your project is layed out, you may need to alter the path.)
+
 # BEM
+
+[Get BEM](http://getbem.com/naming/)
 
