@@ -49,7 +49,7 @@ Let's start with a simple example: colors. We often use the same colors over and
 
 This will instantiate this variable and allow us to use it throughout our file. 
 
-``` 
+``` CSS
 .userCard {
  .userName {
   color: $primary-color;
